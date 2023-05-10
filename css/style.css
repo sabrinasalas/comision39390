@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;400;700;900 & display=swap');
+
+/*-----RESET-----*/
+
+*{
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  color:  hwb(324 15% 77% / 0.448);
+  }
+  
+ul{
+     list-style: none;
+  }
+
+a{
+    text-decoration: none;
+  }
+  
+*{  
+  font-family: 'Roboto', sans-serif;
+}
+
+/*----HEADER----*/
+
+
+h1{
+    color: hwb(324 15% 77% / 0.448);
+    font-style:inherit ;
+    font-weight: 700;
+    font-size: x-large;
+    margin: 20px; 
+    margin-bottom: 20px;
+
+}
+
+
+header nav a {
+  text-align: center;
+  text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li{
+  display: inline-block;
+  margin: 15px;
+}
+  
+
+.menu{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-style: unset; 
+    text-align: center;
+}
+
+.botonTitulo{
+  text-align: center;
+}
+
+.hero{
+  background-color: rgb(235, 188, 234);
+  width: 100%;
+  height: calc(100vh  104px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*----------MAIN------------*/
+
+
+.imgFondo{
+background-image: url("../img/faldaplizadamulticolor.png");
+background-image: url("../img/faldaplizadamedio.png");
+background-image: url("../img/faldaplizadader.png");
+
+width: 200px;
+height: 700px;
+
+display: flex;
+background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+.productos div{
+  width: 337px;
+  height: 500px;
+ display: flex;
+ margin-top: 55px;
+}
+
+.productos div img{
+  width: 337px;
+  height: 500px;
+  justify-content: calc();
+  align-items: center;
+}
+ 
+.productos div a{
+position: sticky;
+bottom: 0;
+background-color: hwb(326 64% 13% / 0.448);
+width: 100%;
+color:hwb(324 15% 77% / 0.448) ;
+text-align: end;
+}
+
+
+
+.iconoInstagram{
+  display: grid;
+  place-content: center;
+  margin-top: 30px;
+}
+
+.formulario{
+  margin-top: 30px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario p{
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*------FOOTER--------*/
+
+
+.redesSociales{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
